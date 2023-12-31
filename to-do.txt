@@ -1,0 +1,26 @@
+TO-DO:
+add more information about Islam and what we believe
+	that will need it's own subpage as well
+	link to read quran
+rip/add pictures
+need to broaden the "about" section after getting more information from people
+add SEO
+resources offered by the masjid? actually, this I don't know myself...
+
+need to make an actual separate CSS so that it can be imported to each page
+need to do similar for header/footer, so only <main> changes from page to page
+need to get rid of the <base> part if possible
+
+honestly, things aren't actually so bad right now, wouldn't be the worst to chane things manually, may be more effort to centralize than to just remember to change on each page
+
+I don't like the church website where everything's in rounded boxes, there's another example that goes overboard with images
+however do need to integrate more images into the website, just tastefully...
+some of these websites just have too much going on...
+	This one is more tasteful: https://bacc.cc/ (it's Bay Area, they know how to do tech)
+Not sure why I didn't look at masjids first:
+	https://iccicenter.org/ this seems like a bit too busy, but it's VERY consistent, they have their stuff together
+	Okay let's not be like NICC lol
+	ICC actually isn't bad, https://www.iccleveland.org/, but we can be a little more consistent and restrained than that, overall information is quite solid, actually good example to follow
+	https://mecca.net/ their header is lowkey cancer but actually the rest of the site is very solid, also a good example
+
+masjid leadership sort of added to front page, moving adding a completely separate page to lower priority

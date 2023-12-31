@@ -1,218 +1,353 @@
-<!--
-References:
-https://getbootstrap.com/docs/5.3/getting-started/introduction/
-https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
--->
-
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hello World</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unity Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	 <style>
+		@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+	</style>
+	<!-- https://stackoverflow.com/questions/17281486/add-target-blank-in-css said this would work...and it does -->
+	<base target="_blank" rel="noopener noreferrer"/>
 </head>
 
 <body>
 
-<div class="container">
-<header>
-<nav class="navbar navbar-expand-md">
-<!--This is is the top navigation bar, I think I plan on making this a single page site, so these links will actually be anchors, eventually will need to add a 'return to top' link or maybe just hold the header at the top of the screen idk lots more to figure out first-->
-<div class="container-fluid">
-<a class="navbar-brand" href="#">Unity Center</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-<div class="navbar-nav me-au	to">
-<a class="nav-link active" aria-current="page" href="#">1</a>
-<a class="nav-link" href="#">2</a>
-<a class="nav-link disabled" aria-disabled="true">3</a>
-</div>
-</div>
-</div>
-</nav>
-</header>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <!--This is is the top navigation bar, I think I plan on making this a single page site, so these links will actually be anchors, eventually will need to add a 'return to top' link or maybe just hold the header at the top of the screen idk lots more to figure out first-->
+                
+                    <h1 style="font-family:'Berkshire Swash'"><b>Unity Center</b></h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav me-au to">
+                            <a class="nav-link" href="index.html" target="_self">Home</a>
+                        </div>
+                    </div>
+                
+            </nav>
+        </header>
 
-<main>
-<!--Introduction to the masjid-->
-<section>
-<div class="row">
-<div class="col text-center">
-<img src="https://www.unitycenterneohio.com/wp-content/uploads/2018/07/kalma-text-img.png" width="300" class="rounded bg-dark mb-3 p-1"/>
-</div>
-</div>
-<div class="row">
-<p> The Unity Center of Northeast Ohio is a Shia masjid serving greater Cleveland and Akron community. Founded in 2005 from a conglomeration of smaller communities, the masjid found a permanent home in 201X in Northfield, Ohio. Programming is offered in English, Arabic, Farsi and Urdu to serve our diverse community. We look forward to welcoming you to our masjid!</p>
-</div>
-</section>
+        <main>
+            <!--Introduction to the masjid-->
+            <section>
+                <div class="row">
+                    <div class="col text-center">
+                        <p><img src="https://www.unitycenterneohio.com/wp-content/uploads/2018/07/kalma-text-img.png" width="300" class="rounded bg-dark p-1" /></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>The Unity Center of Northeast Ohio is a Shia masjid serving the greater Cleveland and Akron regions. Founded in 2004 from a conglomeration of three communities practicing under the Ja'afri Fiqh, the masjid found a permanent home in 2018 in Northfield, Ohio. Programming is offered in English, Arabic, Farsi and Urdu. Our mission is to serve the Muslims and humanity at large within our community. We look forward to welcoming you to our masjid!</p>
+                </div>
+            </section>
+			
+			<!-- What do we Believe? -->
+			<section>
+				<div class="row">
+					<div class="col text-center">
+						<a href="beliefs.html" target="_self" type="button" class="btn btn-outline-primary btn-lg justify-content-center">
+							<h3 style="font-family:'Berkshire Swash'">What do we believe?</h3>
+						</a>
+					</div>
+				</div>
+			</section>
 
-<!-- Contact information -->
-<section>
+            <!-- Contact information -->
+            <section>
+                <div class="row text-center mb-3">
+                    <div class="col-lg g-2">
+                        <div class="col card card-body">
+                            10503 Valley View Road, Northfield, OH 44067
+                        </div>
+                    </div>
 
-<div class="row text-center">		
-<div class="col	">
-<p>10503 Valley View Road, Northfield, OH 44067</p>
-</div>
+                    <div class="col-lg g-2">
+                        <div class="card card-body">(216) 337-4296</div>
+                    </div>
 
-<div class="col">
-<p>(216) 337-4296</p>
-</div>
+                    <div class="col-lg g-2">
+                        <div class="card card-body">
+                            <a href="mailto:unitycenterneohio@gmail.com">unitycenterneohio@gmail.com</a>
+                        </div>
+                    </div>
+					
+					<div class="col-lg g-2">
+                        <div class="card card-body">
+							<div class="row justify-content-center">
+								<div class="col-2 gy-1">
+									<a href="https://www.facebook.com/168438493293868?ref=embed_page">
+										<img src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-facebook-1.png&r=0&g=0&b=0" height="24"/>
+									</a>
+								</div>
+								<div class="col-2 gy-1">
+									<a href="https://chat.whatsapp.com/G8MNmVdeJ8x61blRlSdXXv">
+										<img src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2016/png/iconmonstr-whatsapp-1.png&r=0&g=0&b=0" height="24"/>
+									</a>
+								</div>
+								<div class="col-2 gy-1">
+									<a href="https://www.youtube.com/@UnityCenterOfNortheastOhio">
+										<img src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2013/png/iconmonstr-youtube-6.png&r=0&g=0&b=0" height="24"/>
+									</a>
+								</div>
+								<div class="col-2 gy-1">
+									<a href="https://www.instagram.com/unitycenterneo/">
+										<img src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2016/png/iconmonstr-instagram-11.png&r=0&g=0&b=0" height="24"/>
+									</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+					
+                </div>
+				
+				<!--TO-DO: Testing a different card layout-->
+				
+				<!-- Alert about fundraising for renovation -->
+				<div class="row text-center">
+					<div class="col">
+						<div class="alert alert-primary" role="alert">
+							We are still trying to raise $200,000 for renovations and remodeling. Please <a href="donate.html" target="_self">pledge your support</a> as we move forward with this venture!
+						</div>
+					</div>
+				</div>
 
-<div class="col">
-<a href="mailto:unitycenterneohio@gmail.com">unitycenterneohio@gmail.com</a>
-</div>
-</div>
+            </section>
+			
+            <!-- Calendar (based on what was sent in WhatsApp)-->
+            <section>
+                <div class="row">
+                    <h3 style="font-family:'Berkshire Swash'">Calendar</h3>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Please see below the list of major events in 2024. The best way to keep up-to-date with these events and other community programs is to join the announcements WhatsApp group using the link below.</p>
+						
+						<p>The masjid is available for events organized by community members. If you are interested in organizing an event, please contact the masjid board.</p>
+                    </div>
+                </div>
 
-</section>
+                <div class="row">
+                    <div class="col">
+                        <p><a href="https://chat.whatsapp.com/G8MNmVdeJ8x61blRlSdXXv">Announcements WhatsApp</a></p>
+                    </div>
+                </div>
 
-<!-- Calendar (based on what was sent in WhatsApp)-->
-<section>
+                <div class="row">
+                    <div class="col">
+                        <p class="d-inline-flex">
+                            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#calendar" aria-expanded="false" aria-controls="calendar">Show/Hide Calendar</button>
+                        </p>
 
-<table class="table text-center">
-  <thead>
-    <tr>
-      <th scope="col">Date</th>
-      <th scope="col">Event</th>
-    </tr>
-  </thead>
-  <tbody>
-	<tr>
-      <td>Monday, Jan 1st (2024)</td>
-      <td>Wiladat if Hazrat Fatima Zehra (sa)</td>
-	  <td>Speech:Br. Qarab Syed</td>
-    </tr>
-	<tr>
-      <td>Wiladat Imam Ali, AS</td>
-      <td>Friday and Saturday January 19-20</td>
-	  <td>Speaker : Molana Reza Mahdee Naqavi</td>
-    </tr>
-	
-	<tr>
-      <td>Monday, February 12</td>
-      <td>Jashan 3rd of Shaaban</td>
-	  <td>Sheikh Ahmad Alheri</td>
-    </tr>
-		
-	<tr>
-      <td>Saturday February 24th 2024</td>
-      <td>Celebration of 15 Shaaban. </td>
-    </tr>
-		
-	<tr>
-      <td>March 11/April 9th</td>
-      <td>The month of Ramadan</td>
-    </tr>
-		
-	<tr>
-      <td>April 10</td>
-      <td>Eid ul Fitr</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>Saturday May 4th</td>
-      <td>Martyrdom of Imam Jafer Sadeq (as)</td>
-	  <td>Sheikh Mazin Al-Sahalani</td>
-    </tr>
-		
-	<tr>
-      <td>Saturday, May 18th</td>
-      <td>Wiladat Imam Reza (as)</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>Saturday June 15th</td>
-      <td>Martyrdom of Imam Mohammad Baqer (as) & Martydom of Hazrat Muslim Ibn Aqeel</td>
-	  <td>Speaker Dr Hassan Askari</td>
-    </tr>
-		
-	<tr>
-      <td>Monday June 17th</td>
-      <td>prayer of Eid ul-Azha</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>Saturday, June 22</td>
-      <td>Celebration of Eid Azha, Eid al Ghadir, & wiladat Imam Ali Naqi (as)</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>July 7th</td>
-      <td>the 1st Eve of Muharram 2024</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>July 17 th </td>
-      <td>Ashoora</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>Wednesday , July 31th</td>
-      <td>Martyrdom of Imam Sjaad (as)</td>
-	  <td></td>
-    </tr>
-		
-	<tr>
-      <td>Monday, August 26</td>
-      <td>Arbeen Imam Husain (as) </td>
-	  <td></td>
-    </tr>
-	
-	<tr>
-      <td>Monday September 2nd</td>
-      <td>Wafat Prophet Mohammad (sawa)</td>
-	  <td></td>
-    </tr>
-	
-	<tr>
-      <td>Wednesday, September 11, 2024 </td>
-      <td>Martyrdom of Imam Hassan Askari (as)</td>
-	  <td></td>
-    </tr>
-	<tr>
-      <td>Saturday September 21th 2024 </td>
-      <td>Wiladat Prophet (sawa) & Imam Jafer Sadeq (as)</td>
-	  <td></td>
-    </tr>
-	<tr>
-      <td>Saturday, October 19th 2024 </td>
-      <td>Wiladat Imam Hasan Askari (as)</td>
-	  <td></td>
-    </tr>
-	<tr>
-      <td>Thursday, November 14th 2024 </td>
-      <td>1st Fatimiyah</td>
-	  <td></td>
-    </tr>
-	<tr>
-      <td>2nd Fatimiyah</td>
-      <td>Wednesday, December 2nd 2024</td>
-	  <td></td>
-    </tr>
-		<tr>
-      <td></td>
-      <td></td>
-	  <td></td>
-    </tr>
-  </tbody>
-</table>
+                        <div class="collapse" id="calendar">
+                            <div class="card card-body">
+                                <table class="table table-hover text-center">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Event</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>January 1</td>
+                                            <td>Wiladat Hazrat Fatima Zehra (sa)</td>
+                                            <td>Speaker: Br. Qarab Syed</td>
+                                        </tr>
+                                        <tr>
+                                            <td>January 19 and 20</td>
+                                            <td>Wiladat Imam Ali, AS</td>
+                                            <td>Speaker: Molana Reza Mahdee Naqavi</td>
+                                        </tr>
 
-</section>
+                                        <tr>
+                                            <td>February 12</td>
+                                            <td>Jashan 3rd of Shaaban</td>
+                                            <td>Speaker: Sheikh Ahmad Alheri</td>
+                                        </tr>
 
-</main>
+                                        <tr>
+                                            <td>February 24</td>
+                                            <td>Celebration of 15th Shaaban</td>
+                                            <td></td>
+                                        </tr>
 
-<!-- For now, I don't see the point in having a footer-->
-</div>
+                                        <tr>
+                                            <td>March 11 to April 9</td>
+                                            <td>Ramadan</td>
+                                            <td></td>
+                                        </tr>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+                                        <tr>
+                                            <td>April 10</td>
+                                            <td>Eid ul Fitr</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>May 4</td>
+                                            <td>Martyrdom of Imam Jafer Sadeq (as)</td>
+                                            <td>Speaker: Sheikh Mazin Al-Sahalani</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>May 18</td>
+                                            <td>Wiladat Imam Reza (as)</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>June 15</td>
+                                            <td>Martyrdom of Imam Mohammad Baqer (as) & Martydom of Hazrat Muslim Ibn Aqeel</td>
+                                            <td>Speaker: Dr. Hassan Askari</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>June 17</td>
+                                            <td>Prayer of Eid ul-Azha</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>June 22</td>
+                                            <td>Celebration of Eid Azha, Eid al Ghadir, & Wiladat Imam Ali Naqi (as)</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>July 7</td>
+                                            <td>The First Eve of Muharram</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>July 17</td>
+                                            <td>Ashoora</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>July 31</td>
+                                            <td>Martyrdom of Imam Sjaad (as)</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>August 26</td>
+                                            <td>Arbeen Imam Husain (as) </td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>September 2</td>
+                                            <td>Wafat Prophet Mohammad (sawa)</td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>September 11</td>
+                                            <td>Martyrdom of Imam Hassan Askari (as)</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>September 21</td>
+                                            <td>Wiladat Prophet (sawa) & Imam Jafer Sadeq (as)</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>October 19</td>
+                                            <td>Wiladat Imam Hasan Askari (as)</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>November 14</td>
+                                            <td>First Fatimiyah</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>December 2</td>
+                                            <td>Second Fatimiyah</td>
+                                            <td></td>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</section>
+
+			<section>
+				<div class="row">
+					<div class="col">
+						<h3 style="font-family:'Berkshire Swash'">Programs</h3>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col">
+						<h5>Dua Kumail</h5>
+						<!-- Note this is not the version of the link with the password -->
+						<p>Recitation of Dua Kumail, as well as Hadith Kisa, Dua Faraj and Surah Jummah, is held Thursday evenings at 7:30 over Zoom. Please join using this <a href="https://us02web.zoom.us/j/86368365607">link</a>.</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col">
+						<h5>Sunday School</h5>
+						<p>The following classes are offered on Sunday mornings.</p>
+						<ul>
+							<li>...</li>
+							<li><i>Aqaid (Belief) and Akhlaq (Ethics)</i> for ages 15+, taught by Dr. Askari</li>
+						</ul>
+						<p>Please reach out to our principal, Br. Ata, for more information.</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col">
+						<h5>Helping Hands</h5>
+						<p>Our helping hands volunteering group is involved with various efforts both within our masjid and the broader Cleveland community. Please reach our to X for more information.</p>
+					</div>
+				</div>
+			</section>
+			
+			<!-- FAQ -->
+			<section>
+				<h3 style="font-family:'Berkshire Swash'">FAQ</h3>
+				<p><b>Is Jummah prayed at the Center?</b> Currently, due to lack of an Imam, there is no weekly Jummah prayer.</p>
+				<p><b>Will the center have any programming during Ramadan evenings?</b> There is usually a sponsored Iftar on Fridays and Saturdays. Other nights, the masjid is open for potluck Iftar. (Please contact the board if you are interested in sponsoring.)</p>
+				<p><b>Will I find people of my ethnicity/nationality at Unity Center?</b> Probably! People from a variety of cultural and ethnic backgrounds regularly attend events at the Center. Even if you find you look different from or speak differently from others here, you'll find our community is excited to welcome you!</p>
+			</section>
+			
+			<!-- TO-DO: Resources and Services... if we have any -->
+			
+			<!-- Leadership -->
+			<section>
+				<h3 style="font-family:'Berkshire Swash'">Leadership</h3>
+				<p><b>President</b> Br. Quarab Syed</p>
+				<p><b>Treasurer</b> Hopefully there is one?	</p>
+				<p><b>Board Member</b> First Lastname, Another Name, E. T. Cetera</p>
+				<p>One day there will be information about elections here. But until then, we live under the tyranny of our <i>elected</i> leaders...</p>
+			</section>
+
+		</main>
+
+		<!-- Footer, also used for testing random junk -->
+		<footer>
+			<div class="row mt-5 text-center">
+				<p style="font-size:small">&copy 2023 Adnan Reddy, this is a website mockup for the Unity Center of Northeast Ohio, please refer to their website at <a href="https://www.unitycenterneohio.com/">UnityCenterNEOhio.com</a></p>
+			</div>
+		</footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

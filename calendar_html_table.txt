@@ -1,0 +1,130 @@
+<table class="table table-hover text-center">
+<thead>
+<tr>
+<th scope="col">Date</th>
+<th scope="col">Event</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>January 1</td>
+<td>Wiladat Hazrat Fatima Zehra (sa)</td>
+<td>Speech: Br. Qarab Syed</td>
+</tr>
+<tr>
+<td>January 19 and 20</td>
+<td>Wiladat Imam Ali, AS</td>
+<td>Speaker: Molana Reza Mahdee Naqavi</td>
+</tr>
+
+<tr>
+<td>February 12</td>
+<td>Jashan 3rd of Shaaban</td>
+<td>Sheikh Ahmad Alheri</td>
+</tr>
+
+<tr>
+<td>February 24</td>
+<td>Celebration of 15th Shaaban</td>
+<td></td>
+</tr>
+
+<tr>
+<td>March 11 to April 9</td>
+<td>Ramadan</td>
+<td></td>
+</tr>
+
+<tr>
+<td>April 10</td>
+<td>Eid ul Fitr</td>
+<td></td>
+</tr>
+
+<tr>
+<td>May 4</td>
+<td>Martyrdom of Imam Jafer Sadeq (as)</td>
+<td>Sheikh Mazin Al-Sahalani</td>
+</tr>
+
+<tr>
+<td>May 18</td>
+<td>Wiladat Imam Reza (as)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>June 15</td>
+<td>Martyrdom of Imam Mohammad Baqer (as) & Martydom of Hazrat Muslim Ibn Aqeel</td>
+<td>Speaker Dr Hassan Askari</td>
+</tr>
+
+<tr>
+<td>June 17</td>
+<td>Prayer of Eid ul-Azha</td>
+<td></td>
+</tr>
+
+<tr>
+<td>June 22</td>
+<td>Celebration of Eid Azha, Eid al Ghadir, & Wiladat Imam Ali Naqi (as)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>July 7</td>
+<td>The First Eve of Muharram</td>
+<td></td>
+</tr>
+
+<tr>
+<td>July 17</td>
+<td>Ashoora</td>
+<td></td>
+</tr>
+
+<tr>
+<td>July 31</td>
+<td>Martyrdom of Imam Sjaad (as)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>August 26</td>
+<td>Arbeen Imam Husain (as) </td>
+<td></td>
+</tr>
+
+<tr>
+<td>September 2</td>
+<td>Wafat Prophet Mohammad (sawa)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>September 11</td>
+<td>Martyrdom of Imam Hassan Askari (as)</td>
+<td></td>
+</tr>
+<tr>
+<td>September 21</td>
+<td>Wiladat Prophet (sawa) & Imam Jafer Sadeq (as)</td>
+<td></td>
+</tr>
+<tr>
+<td>October 19</td>
+<td>Wiladat Imam Hasan Askari (as)</td>
+<td></td>
+</tr>
+<tr>
+<td>November 14</td>
+<td>First Fatimiyah</td>
+<td></td>
+</tr>
+<tr>
+<td>December 2</td>
+<td>Second Fatimiyah</td>
+<td></td>
+</tbody>
+</table>
